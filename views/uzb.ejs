@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huzur</title>
+    <link rel="icon" type="image/x-icon" href="/image/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/media.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <img src="/image/logo.png" alt="Company logo">
+        <div class="lan">
+            <p><i class="fa-solid fa-phone-volume"></i> +9989 71 200 84 48</p>
+            <a href="/uz"><img src="/image/uz.png" alt="Uzb flag"></a>
+            <a href="/ru"><img src="/image/ru.png" alt="Rus flag"></a>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="header-content">
+            <h1 class="title"><svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" class="bi bi-droplet-fill" viewBox="0 0 16 16">
+                <path d="M8 16a6 6 0 0 0 6-6c0-1.655-1.122-2.904-2.432-4.362C10.254 4.176 8.75 2.503 8 0c0 0-6 5.686-6 10a6 6 0 0 0 6 6M6.646 4.646l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448c.82-1.641 1.717-2.753 2.093-3.13"/>
+              </svg> HUZUR</h1>
+            <p class="text">Kumushli Suv</p>
+            <button onclick="dropletFunction()"  class="btn" type="submit"><a href="https://t.me/huzur_water" onclick="dropletLinkFunction(this); event.preventDefault(); return false;"><i class="fa-solid fa-bottle-water"></i> Buyurtma qilish</a></button>
+            <div class="droplets">
+                <i id="droplet1" class="fa-solid fa-droplet"></i>
+                <i id="droplet2" class="fa-solid fa-droplet"></i>
+                <i id="droplet3" class="fa-solid fa-droplet"></i>
+                <i id="droplet4" class="fa-solid fa-droplet"></i>
+                <i id="droplet5" class="fa-solid fa-droplet"></i>
+                <i id="droplet6" class="fa-solid fa-droplet"></i>
+                <i id="droplet7" class="fa-solid fa-droplet"></i>
+             </div> 
+        </div>
+    </header>
+
+    <section class="info">
+        <img src="/image/section1.png" alt="Water bottles">
+        <div class="info-content">
+            <h2>Huzur</h2>
+            <p>Gazlanmagan «Huzur» artezian, ichimlik tozalangan suvi. <br>
+                Umumiy ma'danligi 120-160 mg/l. Saqlash muddati 1 yil. +1°C <br>
+                dan +25°C gacha bulgan haroratda, nisbiy namligiga 85% yuqori <br>
+                bo'lmagan. O'zbekiston Respublikasida ishlab chiqarilgan. <br>
+                "Gujumli" Water» MCHJ. Navoiy viloyati, Konimex tumani, <br>
+                Karakata qishlog'i, Shontibay KFY</p>
+        </div>
+    </section>
+    <div class="text-title">
+        <p class="delivery-text">Toshkent bo'ylab bepul yetkazib berish xizmati.</p>
+    </div>
+    <section class="delivery">
+        <div class="delivery-content1">
+            <img src="/image/section2.png" alt="Delivery man">
+        </div>
+        <div class="delivery-content2">
+            
+            <img id="magicImg" class="magic" src="/image/discount.png" alt="Discount" onmouseover="visible(this)" onmouseout="unvisible(this)" border="0">
+            <div id="magic" class="magic-text" onmouseover="visible(this)" onmouseout="unvisible(this)" border="0">
+                    <h3><i class="fa-solid fa-gift"></i> Chegirma</h3>
+                    <p> 4 ta sotib oling, beshinchisi bepul qo'shib beriladi</p>
+                    <button class="btn" type="submit"><a href="https://t.me/huzur_water"><i class="fa-solid fa-bottle-water"></i> Buyurtma qilish</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pomp">
+        <h6>Ichimlik suvi uchun har xil turdagi pompalar</h6>
+        <div class="pomp-img">
+            <img src="/image/pomp3.png" alt="pomp">
+            <img src="/image/pomp.png" alt="pomp">
+            <img src="/image/pomp2.png" alt="pomp">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <h4>HUZUR</h4>
+            <p><i class="fa-solid fa-phone-volume"></i> +9989 71 200 84 48</p>
+            <p><i class="fa-solid fa-phone-volume"></i> +9989 99 418 77 77</p>
+        </div>
+        <ul>
+            <li><a target="_blank" href="https://t.me/huzur_water"><i class="fa-brands fa-telegram"></i></a></li>
+            <li><a target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+    </footer>
+    
+    <script>
+
+        function dropletFunction() {
+            document.getElementById("droplet1").style.visibility = "visible";
+            document.getElementById("droplet2").style.visibility = "visible";
+            document.getElementById("droplet3").style.visibility = "visible";
+            document.getElementById("droplet4").style.visibility = "visible";
+            document.getElementById("droplet5").style.visibility = "visible";
+            document.getElementById("droplet6").style.visibility = "visible";
+            document.getElementById("droplet7").style.visibility = "visible";
+        }
+
+        function dropletLinkFunction(link) {
+        setTimeout(function() {
+            window.location.href = link.href;
+        }, 1500); 
+        }
+        
+        
+        function visible(x) {
+            let magic = document.getElementById("magic").style.opacity = "1"
+            document.getElementById("magicImg").style.opacity = "0.5"
+        }
+        
+        function unvisible(x) {
+          let magic = document.getElementById("magic");
+          magic.style.opacity = "0";   
+          document.getElementById("magicImg").style.opacity = "1"
+        }
+        </script>
+</body>
+</html>

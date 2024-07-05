@@ -1,0 +1,160 @@
+@media screen and (max-width: 1024px) {
+    .navbar {
+        padding: 1rem;
+    }
+
+    .navbar img {
+        width: 100px;
+    }
+
+    .lan img {
+        width: 30px;
+    }
+
+    .lan p {
+        margin-right: 10px;
+        font-size: 0.7rem;
+    }
+
+    /* header section */
+    .header {
+        height: 93vh;
+    }
+
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .title {
+        font-size: 3.5rem;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    .title svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .text {
+        text-align: center;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .btn {
+        padding: 0.5rem 1rem;
+    }
+
+    .btn a {
+        font-size: 1rem;
+    }
+
+    /* info section */
+
+    .info {
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .info img {
+        width: 100%;
+        margin-bottom: 2rem;
+
+    }
+
+    .info-content h2 {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+
+    .info-content p {
+        font-size: 1rem;
+    }
+
+    /* Delivery section */
+
+    .delivery {
+        padding: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .delivery-container {
+        padding: 0 1rem;
+    }
+
+    .text-title {
+        padding: 0 1rem;
+    }
+
+    .delivery-text {
+        font-size: 1rem;
+        padding: 1rem;
+
+    }
+
+    .delivery-content1 {
+        width: 300px;
+    }
+
+    .delivery-content1 img {
+        width: 100%;
+        margin-bottom: 1rem ;
+    }
+
+
+    .delivery-content2 img {
+        width: 100%;
+    }
+
+    .magic-text {
+        padding: 0 1rem;
+        left: 0;
+    }
+
+    .magic-text h3 {
+        font-size: 2rem;
+    }
+
+    .magic-text p {
+        font-size: 1rem;
+    }
+
+    /* Pomp section */
+    .pomp {
+        padding: 1rem;
+
+    }
+
+    .pomp h6 {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .pomp-img img {
+        width: 100px;
+    }
+
+
+    /* Footer section */
+    footer {
+        padding: 1rem;
+        align-items: center;
+    }
+
+    .footer-content h4 {
+        font-size: 1.5rem;
+    }
+
+    .footer-content p {
+        font-size: 0.5rem;
+    }
+
+    footer ul li a i {
+        font-size: 2rem;
+    }
+
+}
