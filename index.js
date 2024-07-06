@@ -1,5 +1,4 @@
 import express from "express";
-import { dirname } from "path";
 import bodyParser from "body-parser";
 
 const app = express();
